@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "android": "npx react-native@0.73.4 run-android",
-    "ios": "npx react-native@0.73.4 run-ios",
-    "start": "npx react-native@0.73.4 start",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "start": "node start.js",
     "test": "jest",
     "lint": "eslint ."
   },
@@ -17,7 +17,7 @@
     "@react-navigation/native-stack": "^6.9.17",
     "@tanstack/react-query": "^5.56.2",
     "react": "18.2.0",
-    "react-native": "0.73.4",
+    "react-native": "0.74.3",
     "react-native-gesture-handler": "^2.14.0",
     "react-native-reanimated": "^3.6.1",
     "react-native-safe-area-context": "^4.8.2",
