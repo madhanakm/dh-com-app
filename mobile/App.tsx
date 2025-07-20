@@ -40,7 +40,11 @@ const App = () => {
                   <SafeAreaProvider>
                     <NavigationContainer>
                       <Stack.Navigator initialRouteName="Home">
-                        <Stack.Screen name="Home" component={HomeScreen} />
+                        <Stack.Screen 
+                          name="Home" 
+                          component={HomeScreen} 
+                          options={{ headerShown: false }}
+                        />
                         <Stack.Screen name="Products" component={ProductsScreen} />
                         <Stack.Screen name="ProductDetail" component={ProductDetailScreen} />
                         <Stack.Screen name="Cart" component={CartScreen} />
